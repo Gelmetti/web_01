@@ -1,0 +1,41 @@
+body {
+    background: #070707;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+header {
+    background-color: hwb(235 20% 70%);
+    color: white;
+  }
+
+  h1 {
+    margin: 0;
+  }
+
+  nav{
+    border-top:   hwb(125 15% 35%) solid 4px;
+    background-color: hwb(235 20% 70%);
+    color: white;
+    text-align: center;
+    position: sticky;
+    nav{
+        border-top:   hwb(125 15% 35%) solid 4px;
+        background-color: hwb(235 20% 70%);
+        color: white;
+        text-align: center;
+        position: sticky;
+        top:0;
+      
+    }
+    
+    li{
+        display: inline-block;
+        padding: auto;
+        
+    }
+
+    
+}
