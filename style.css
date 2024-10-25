@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 10px;
   padding: 0;
   box-sizing: border-box;
 }
@@ -13,28 +13,20 @@ body {
 }
 
 header {
+  position:absolute;
     background: #333 url(./ai-generated-8291097_1280.png);
     height: 100vh;
     text-align: center;
     padding: 2rem;
     padding-left: 15rem;
+    margin: bottom 50rem; ;
     color: bisque;
     
   }
 
-  header h1:hover{
-    transition: all 0.5s easy-in-out;
-    transform: perspective(100pa) translate3d(20px, 20px, 20px);
-  }
-    
-
-
-  
- 
-  
-
-  nav{
-    border-top:   hwb(246 15% 35%) solid 4px;
+nav{
+  border-top:   hwb(246 15% 35%) solid 4px;
+  margin-top: 50px;
   color: white;
   text-align: center;
   position: sticky;
@@ -60,4 +52,25 @@ header {
 .button:hover{
   background-color: white;
   color: rgb(87, 6, 50);
+}
+
+div p{
+  border: 2px red solid;
+  box-shadow: 15px 10px red;
+  margin-top: 60px;
+ 
+  
+}
+
+  
+
+
+
+
+
+
+
+section{
+  position: absolute;
+  top: 700px; left: 200px;
 }
