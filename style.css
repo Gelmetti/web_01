@@ -22,6 +22,15 @@ header {
     margin: bottom 50rem; ;
     color: bisque;
     
+    
+  }
+  
+
+  header h1 {
+    animation: color_cambio_h1;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }
 
 nav{
@@ -60,6 +69,24 @@ div p{
   margin-top: 60px;
  
   
+}
+
+@keyframes color_cambio_h1 {
+  0%{
+    
+    color: silver
+  }
+  50%{
+    color: blue
+  }
+  100%{
+    color: gold
+  }
+
+
+
+
+
 }
 
   
