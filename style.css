@@ -89,13 +89,29 @@ div p{
 
 }
 
+.imagen{
+  position: absolute;
+  top: 620px;
+  left:1px;
+  border: black 5px solid;
   
+  
+}
 
+.motorizaciones{
+  position: absolute;
+  top: 650px;
+  left: 900px;
+  background-color: #b91919;
+}
 
-
-
-
-
+.logo_2{
+  position: absolute;
+  top: 220px;
+  left: 70px;
+  
+}
+  
 
 section{
   position: absolute;
